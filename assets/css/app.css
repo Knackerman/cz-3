@@ -1,0 +1,32 @@
+body {
+    max-width: 80%;
+    margin: auto;
+}
+
+.card{
+    max-width: 250px;
+    min-width: 250px;
+    min-height: 220px;
+    text-align: center;
+}
+
+.card .membership{
+    max-width: 250px;
+    min-width: 250px;
+    min-height: 800px;
+    text-align: center;
+}
+
+.btn{
+    min-width: 40%;
+}
+
+.box{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.board{
+    width: 100%;
+}

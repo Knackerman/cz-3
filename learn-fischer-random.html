@@ -1,0 +1,69 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+    <link href="assets/css/app.css" rel="stylesheet" type="text/css"/>
+
+    <link rel="shortcut icon" href="assets/images/logo-sm-light.png.png">
+    <title>Chessercizes</title>
+
+</head>
+<body>
+<nav class="navbar navbar-expand-md navbar-dark bg-primary">
+    <a class="navbar-brand" href="index.html">Chessercizes</a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo02" aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+    </button>
+
+    <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
+        <ul class="navbar-nav mr-auto mt-lg-0">
+            <li class="nav-item active">
+                <a class="nav-link" href="lobby.html">Lobby</a>
+            </li>
+            <li class="nav-item active">
+                <a class="nav-link" href="game-classic.html">Quick Match</a>
+            </li>
+            <li class="nav-item active">
+                <a class="nav-link" href="variants.html">Variants</a>
+            </li>
+            <li class="nav-item active">
+                <a class="nav-link" href="game-classic.html">Feeling Lucky</a>
+            </li>
+        </ul>
+    </div>
+</nav>
+
+<div class="container m-0">
+    <h3>Fischer Random</h3>
+
+    <ul id="myTab" class="nav nav-tabs">
+        <li class="nav-item"><a class="nav-link active" id="#1" data-toggle="tab" href="#1" role="tab"
+                                aria-controls="profile" aria-selected="false"><i class="fas fa-book"></i> Overview</a></li>
+        <li class="nav-item"><a class="nav-link" id="#2" data-toggle="tab" href="#2" role="tab"
+                                aria-controls="profile" aria-selected="false"><i class="fas fa-book"></i> Rules</a></li>
+        <li class="nav-item"><a class="nav-link" id="#3" data-toggle="tab" href="#3" role="tab"
+                                aria-controls="profile" aria-selected="false"><i class="fa fa-graduation-cap"></i> Tips</a>
+        </li>
+    </ul>
+
+    <div id="myTabContent" class="tab-content">
+        <div class="tab-pane active" id="1" role="tabpanel" aria-labelledby="profile-tab">
+            <h4>When setting up the board, the pawns are placed as usual, however the pieces on the back rows are randomly placed. When the random placement of pieces is decided upon, both sides must be set up in the exact same way. Besides this the game continues as normal. This allows a regular game of Chess to begin from an entirely unique setup.</h4>
+        </div>
+        <div class="tab-pane" id="2" role="tabpanel" aria-labelledby="profile-tab">
+            <h4>The pieces on the back ranks are randomly placed. Both sides must be randomized in the exact same way. One rule remains the same: one Bishop must start on a white square and the other Bishop on a dark square. The Kings may still castle as well, regardless of the placement of the Rooks. This looks confusing at first, but when castling, the Kings will still land on the same squares as normal, i.e. the white King will land on g1 when castling kingside, or c1 when castling queenside. The Rooks too will land on their regular spots next to the King on the d-file or f-file, depending on which side the King castles to. All other regular castling rules apply: no pieces can be placed between the King and Rook, no castling through check or out of check, and the King and Rook must not have moved before castling.</h4>
+        </div>
+        <div class="tab-pane" id="3" role="tabpanel" aria-labelledby="profile-tab">
+            <h4>Though the opening is unique to each Fischer Random game, the same opening principles of regular chess still apply. Move the central Pawns to attack key squares and open up lines of movement for the Bishops and Queen. Develop Knights and Bishops to attack the same squares as the central Pawns. Castle the King behind a safe pawn shield, while also bringing Rooks to open files, or files where Pawns will be traded. If pieces are not developed, it's like you don't have them! So make sure you put them on active squares.</h4>
+        </div>
+    </div>
+</div>
+
+<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.bundle.min.js" integrity="sha384-1CmrxMRARb6aLqgBO7yyAxTOQE2AKb9GfXnEo760AUcUmFx3ibVJJAzGytlQcNXd" crossorigin="anonymous"></script>
+</body>
+</html>
